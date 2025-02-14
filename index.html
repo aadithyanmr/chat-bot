@@ -2,105 +2,93 @@
 <html lang="en">
 
 <head>
-  <title>chat bot</title>
+  <title>Chat Bot</title>
 </head>
 
 <style>
-  .box {
-    width: 600px;
-    background-color: rgb(255, 255, 255);
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+
+  section {
+    border: .5px solid black;
     margin: auto;
+    width: 34%;
     padding: 60px;
-    border: 0.5px solid rgb(64, 59, 59);
   }
 
-  body {
-    margin-top: 80px;
-  }
-
-  .heading {
-    font-size: 55px;
-    text-align: left;
-    font-family: sans-serif;
+  h1 {
+    color: rgba(0, 0, 0, 0.7);
     font-weight: 200;
-    margin: 0px;
-    color: rgb(99, 98, 98);
+    font-size: 44px;
+
   }
 
-  #para1 {
-    font-size: 30px;
-    font-weight: 200;
-    color: rgb(138, 138, 138);
-    font-family: sans-serif;
-    line-height: 40px;
+  section>* {
+    margin-bottom: 30px;
   }
 
-  #para2 {
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: 200;
-    color: rgba(138, 138, 138, 0.733);
-    font-family: sans-serif;
-    padding-bottom: 20px;
-    border-bottom: 0px;
-    margin-bottom: 0px;
-  }
-
-  .button {
+  a {
     background-color: #4184e1;
-    height: 45px;
     width: 100%;
-    margin: auto;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 200;
     border-radius: 30px;
-    padding-top: 12px;
-  }
-
-  #underline {
-    height: 3px;
-    width: 70px;
-    border-radius: 2px;
-    background-color: rgb(0, 0, 0);
-    margin: 30px 0px;
-  }
-
-  #button-text {
     text-align: center;
+    display: inline-block;
+    text-decoration: none;
     color: white;
-    font-family: sans-serif;
-    font-size: 26px;
-    margin: 0px;
-    font-weight: 300;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+
+  #dsc {
+    font-size: 24px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 32px;
+  }
+
+  #tnc {
+    font-size: 18px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 0px;
+    line-height: 26px;
+  }
+
+  #rule {
+    width: 15%;
+    height: 2px;
+    background-color: black;
   }
 </style>
 
 <body>
-  <section class="box">
-
-    <h2 class="heading">
+  <section>
+    <h1>
       Build your first chatbot in 10 minutes!
-    </h2>
+    </h1>
 
-    <div id="underline">
-    </div>
+    <div id="rule"></div>
 
-    <p id="para1">
+    <p id="dsc">
       Have a bot answering questions from customers on your website within 10 minutes of signing up for ChatBot.
     </p>
 
-    <div class="button">
-      <p id="button-text">
-        TRY NOW&rarr;
-      </p>
-    </div>
+    <a href="#">try now &rarr;</a>
 
-    <p id="para2">
+    <p id="tnc">
       By clicking try now you create an account and agree to our
       Terms and Conditions and Privacy Policy.
     </p>
-
   </section>
-
 </body>
 
 </html>
